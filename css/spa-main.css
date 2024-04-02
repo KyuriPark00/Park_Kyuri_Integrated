@@ -186,40 +186,19 @@ Couples Resort Responsive Build
    margin-right: 10px;
 }
 
-/* 6. ---About & FAQ--- */
-
-#about-hero-con {
-   background: url(../images/home/about-us-hero.jpg) no-repeat;
-   height: 195px;
-}
-
-#about-hero-heading-box {
-   align-self: end;
-}
-
-#about-us-text {
-   padding-bottom: 60px;
-}
-
-#about-us-text p {
-   font-size: 14px;
-   margin-bottom: 20px;
-   line-height: 22px;
-}
-
-#about-us-text-column2 {
-   font-style: italic;
-}
+/* 6. --- details & summary --- */
 
 
 details {
    border: none;
    padding: 10px 0;
+   margin-bottom: 35px;
 }
 
 summary {
    background-color: #efefef;
    padding: 10px;
+   margin-bottom: 40px;
 }
 
 .thin-line-separator {
@@ -233,27 +212,28 @@ details p {
   padding-bottom: 0;
 }
 
+
 /* 5. --- massage nav도 마사지로 바꾸기--- */
 
-#why-choose-us-nav {
+#massage-nav {
    padding-top: 20px;
 }
 
-#why-choose-us-nav ul {
+#massage-nav ul {
    list-style: none;
    margin: 0;
    padding: 0;
 }
-#why-choose-us-nav ul li {
+#massage-nav ul li {
    margin-bottom: 15px;
 }
 
-#why-choose-us-nav ul li a {
+#massage-nav ul li a {
    Color: inherit;
    padding: 5px;
 }
 
-#why-choose-us-nav ul li a.selected {
+#massage-nav ul li a.selected {
    border-left: #9a2018 solid 5px;
 }
 
