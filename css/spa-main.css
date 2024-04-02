@@ -385,8 +385,8 @@ details p {
    padding: 5px;
    color: #fff;
 } 
-/* 7. --- scrub --- */
 
+/* 7. --- scrub --- */
 #scrub-nav {
    padding-top: 20px;
 }
@@ -461,6 +461,84 @@ details p {
 #scrub-bottom-nav ol li a {
    padding: 5px;
    color: #fff;
+}
+
+/* 7. --- algonquin --- */
+#algonquin-nav {
+   padding-top: 20px;
+}
+
+#algonquin-nav ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+#algonquin-nav ul li {
+   margin-bottom: 15px;
+}
+
+#algonquin-nav ul li a {
+   Color: inherit;
+   padding: 5px;
+}
+
+#algonquin-nav ul li a.selected {
+   border-left: #9a2018 solid 5px;
+}
+
+#algonquin-hero-con {
+   background: url(../images/spa/spa-mobl-sec-05.png) no-repeat;
+   height: 195px;
+}
+
+#algonquin-heading-box {
+   align-self: end;
+}
+
+.algonquin-image {
+   float: left;
+   margin-right: 20px;
+   margin-top: 30px;
+}
+
+.algonquin-image-con {
+   font-size: 14px;
+   margin-bottom: 20px;
+   margin-top: 30px;;
+}
+
+.algonquin-image-con p {
+   font-size: 12px;
+   margin-bottom: 20px;
+   line-height: 20px;
+}
+
+.algonquin-image-con a {
+   color: #707070;
+   font-size: 12px;
+}
+
+#algonquin-bottom-nav {
+   background-color: #CF6666;
+   padding: 10px;
+   margin-top: 20px;
+   margin-bottom: 30px;
+}
+
+#algonquin-bottom-nav ol {
+   list-style-type: none;
+   margin: 0 0 0 20px;
+   padding: 0;
+}
+
+#algonquin-bottom-nav ol li {
+   display: inline;
+}
+
+#algonquin-bottom-nav ol li a {
+   padding: 5px;
+   color: #fff;
+}
 
 /* 8. ---Footer--- */
 
