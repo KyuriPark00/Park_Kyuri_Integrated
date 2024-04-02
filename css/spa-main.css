@@ -308,6 +308,83 @@ details p {
   padding-bottom: 0;
 }
 
+/* handfoot */
+
+#handfoot-nav {
+   padding-top: 20px;
+}
+
+#handfoot-nav ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+#handfoot-nav ul li {
+   margin-bottom: 15px;
+}
+
+#handfoot-nav ul li a {
+   Color: inherit;
+   padding: 5px;
+}
+
+#handfoot-nav ul li a.selected {
+   border-left: #9a2018 solid 5px;
+}
+
+#handfoot-hero-con {
+   background: url(../images/spa/spa-mobl-sec-03.png) no-repeat;
+   height: 195px;
+}
+
+#handfoot-heading-box {
+   align-self: end;
+}
+
+.handfoot-image {
+   float: left;
+   margin-right: 20px;
+   margin-top: 30px;
+}
+
+.handfoot-image-con {
+   font-size: 14px;
+   margin-bottom: 20px;
+   margin-top: 30px;;
+}
+
+.handfoot-image-con p {
+   font-size: 12px;
+   margin-bottom: 20px;
+   line-height: 20px;
+}
+
+.handfoot-image-con a {
+   color: #707070;
+   font-size: 12px;
+}
+
+#handfoot-bottom-nav {
+   background-color: #CF6666;
+   padding: 10px;
+   margin-top: 20px;
+   margin-bottom: 30px;
+}
+
+#handfoot-bottom-nav ol {
+   list-style-type: none;
+   margin: 0 0 0 20px;
+   padding: 0;
+}
+
+#handfoot-bottom-nav ol li {
+   display: inline;
+}
+
+#handfoot-bottom-nav ol li a {
+   padding: 5px;
+   color: #fff;
+} 
 /* 7. ---Contact--- */
 
 /* 8. ---Footer--- */
