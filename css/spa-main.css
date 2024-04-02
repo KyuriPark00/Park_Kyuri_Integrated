@@ -113,7 +113,7 @@ Couples Resort Responsive Build
 /* 3. ---Main Hero Image--- */
 
 #hero {
-   background: url(../images/home/hero-main.jpg) no-repeat;
+   background: url(../images/spa/spa-mobl-hero.png) no-repeat;
    height: 200px;
 }
 
@@ -209,7 +209,7 @@ Couples Resort Responsive Build
 }
 
 #why-choose-us-hero-con {
-   background: url(../images/home/why-choose-us-hero.jpg) no-repeat;
+   background: url(../images/spa/spa-mobl-sec-01.png) no-repeat;
    height: 195px;
 }
 
