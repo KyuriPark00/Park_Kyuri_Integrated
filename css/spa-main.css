@@ -286,6 +286,28 @@ Couples Resort Responsive Build
    font-style: italic;
 }
 
+
+details {
+   border: none;
+   padding: 10px 0;
+}
+
+summary {
+   background-color: #efefef;
+   padding: 10px;
+}
+
+.thin-line-separator {
+   border-top: solid 2px #CF6666;
+}
+
+
+details p {
+  margin-top: 25px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
 /* 7. ---Contact--- */
 
 /* 8. ---Footer--- */
