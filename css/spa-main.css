@@ -459,6 +459,83 @@ details p {
    color: #fff;
 }
 
+/* 5. --- more --- */
+#more-nav {
+   padding-top: 20px;
+}
+
+#more-nav ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+#more-nav ul li {
+   margin-bottom: 15px;
+}
+
+#more-nav ul li a {
+   Color: inherit;
+   padding: 5px;
+}
+
+#more-nav ul li a.selected {
+   border-left: #9a2018 solid 5px;
+}
+
+#more-hero-con {
+   background: url(../images/home/why-choose-us-hero.jpg) no-repeat;
+   height: 195px;
+}
+
+#more-heading-box {
+   align-self: end;
+}
+
+.more-image {
+   float: left;
+   margin-right: 20px;
+   margin-top: 30px;
+}
+
+.more-image-con {
+   font-size: 14px;
+   margin-bottom: 20px;
+   margin-top: 30px;;
+}
+
+.more-image-con p {
+   font-size: 12px;
+   margin-bottom: 20px;
+   line-height: 20px;
+}
+
+.more-image-con a {
+   color: #707070;
+   font-size: 12px;
+}
+
+#more-bottom-nav {
+   background-color: #CF6666;
+   padding: 10px;
+   margin-top: 20px;
+   margin-bottom: 30px;
+}
+
+#more-bottom-nav ol {
+   list-style-type: none;
+   margin: 0 0 0 20px;
+   padding: 0;
+}
+
+#more-bottom-nav ol li {
+   display: inline;
+}
+
+#more-bottom-nav ol li a {
+   padding: 5px;
+   color: #fff;
+} 
+
 /* 8. ---Footer--- */
 
 #footer-hero {
