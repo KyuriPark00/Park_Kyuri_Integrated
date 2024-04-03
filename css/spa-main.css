@@ -185,116 +185,20 @@ Couples Resort Responsive Build
 .fa-map-marker-alt {
    margin-right: 10px;
 }
-/* 5. ---Why Choose Us--- */
-#why-choose-us-nav {
-   padding-top: 20px;
-}
 
-#why-choose-us-nav ul {
-   list-style: none;
-   margin: 0;
-   padding: 0;
-}
-#why-choose-us-nav ul li {
-   margin-bottom: 15px;
-}
-
-#why-choose-us-nav ul li a {
-   Color: inherit;
-   padding: 5px;
-}
-
-#why-choose-us-nav ul li a.selected {
-   border-left: #9a2018 solid 5px;
-}
-
-#why-choose-us-hero-con {
-   background: url(../images/spa/spa-mobl-sec-01.png) no-repeat;
-   height: 195px;
-}
-
-#why-choose-us-heading-box {
-   align-self: end;
-}
-
-.why-choose-us-image {
-   float: left;
-   margin-right: 20px;
-   margin-top: 30px;
-}
-
-.why-choose-us-image-con {
-   font-size: 14px;
-   margin-bottom: 20px;
-   margin-top: 30px;;
-}
-
-.why-choose-us-image-con p {
-   font-size: 12px;
-   margin-bottom: 20px;
-   line-height: 20px;
-}
-
-.why-choose-us-image-con a {
-   color: #707070;
-   font-size: 12px;
-}
-
-#why-choose-us-bottom-nav {
-   background-color: #CF6666;
-   padding: 10px;
-   margin-top: 20px;
-   margin-bottom: 30px;
-}
-
-#why-choose-us-bottom-nav ol {
-   list-style-type: none;
-   margin: 0 0 0 20px;
-   padding: 0;
-}
-
-#why-choose-us-bottom-nav ol li {
-   display: inline;
-}
-
-#why-choose-us-bottom-nav ol li a {
-   padding: 5px;
-   color: #fff;
-} 
-/* 6. ---About & FAQ--- */
-
-#about-hero-con {
-   background: url(../images/home/about-us-hero.jpg) no-repeat;
-   height: 195px;
-}
-
-#about-hero-heading-box {
-   align-self: end;
-}
-
-#about-us-text {
-   padding-bottom: 60px;
-}
-
-#about-us-text p {
-   font-size: 14px;
-   margin-bottom: 20px;
-   line-height: 22px;
-}
-
-#about-us-text-column2 {
-   font-style: italic;
-}
+/* 6. --- details & summary --- */
 
 
 details {
    border: none;
    padding: 10px 0;
+   margin-bottom: 35px;
 }
 
 summary {
    background-color: #efefef;
    padding: 10px;
+   margin-bottom: 40px;
 }
 
 .thin-line-separator {
@@ -308,29 +212,86 @@ details p {
   padding-bottom: 0;
 }
 
-/* handfoot */
 
-#handfoot-nav {
+/* 5. --- massage nav도 마사지로 바꾸기--- */
+
+#massage-nav {
    padding-top: 20px;
 }
 
-#handfoot-nav ul {
+#massage-nav ul {
    list-style: none;
    margin: 0;
    padding: 0;
 }
-#handfoot-nav ul li {
+#massage-nav ul li {
    margin-bottom: 15px;
 }
 
-#handfoot-nav ul li a {
+#massage-nav ul li a {
    Color: inherit;
    padding: 5px;
 }
 
-#handfoot-nav ul li a.selected {
+#massage-nav ul li a.selected {
    border-left: #9a2018 solid 5px;
 }
+
+#massage-hero-con {
+   background: url(../images/spa/spa-mobl-sec-01.png) no-repeat;
+   height: 195px;
+}
+
+#massage-heading-box {
+   align-self: end;
+}
+
+.massage-image {
+   float: left;
+   margin-right: 20px;
+   margin-top: 30px;
+}
+
+.massage-image-con {
+   font-size: 14px;
+   margin-bottom: 20px;
+   margin-top: 30px;;
+}
+
+.massage-image-con p {
+   font-size: 12px;
+   margin-bottom: 20px;
+   line-height: 20px;
+}
+
+.massage-image-con a {
+   color: #707070;
+   font-size: 12px;
+}
+
+#massage-bottom-nav {
+   background-color: #CF6666;
+   padding: 10px;
+   margin-top: 20px;
+   margin-bottom: 30px;
+}
+
+#massage-bottom-nav ol {
+   list-style-type: none;
+   margin: 0 0 0 20px;
+   padding: 0;
+}
+
+#massage-bottom-nav ol li {
+   display: inline;
+}
+
+#massage-bottom-nav ol li a {
+   padding: 5px;
+   color: #fff;
+} 
+
+/* handfoot */
 
 #handfoot-hero-con {
    background: url(../images/spa/spa-mobl-sec-03.png) no-repeat;
@@ -385,32 +346,11 @@ details p {
    padding: 5px;
    color: #fff;
 } 
+
 /* 7. --- scrub --- */
 
-#scrub-nav {
-   padding-top: 20px;
-}
-
-#scrub-nav ul {
-   list-style: none;
-   margin: 0;
-   padding: 0;
-}
-#scrub-nav ul li {
-   margin-bottom: 15px;
-}
-
-#scrub-nav ul li a {
-   Color: inherit;
-   padding: 5px;
-}
-
-#scrub-nav ul li a.selected {
-   border-left: #9a2018 solid 5px;
-}
-
 #scrub-hero-con {
-   background: url(../images/spa/spa-mobl-sec-03.png) no-repeat;
+   background: url(../images/spa/spa-mobl-sec-04.png) no-repeat;
    height: 195px;
 }
 
@@ -461,6 +401,63 @@ details p {
 #scrub-bottom-nav ol li a {
    padding: 5px;
    color: #fff;
+}
+
+/* 7. --- algonquin --- */
+
+#algonquin-hero-con {
+   background: url(../images/spa/spa-mobl-sec-05.png) no-repeat;
+   height: 195px;
+}
+
+#algonquin-heading-box {
+   align-self: end;
+}
+
+.algonquin-image {
+   float: left;
+   margin-right: 20px;
+   margin-top: 30px;
+}
+
+.algonquin-image-con {
+   font-size: 14px;
+   margin-bottom: 20px;
+   margin-top: 30px;;
+}
+
+.algonquin-image-con p {
+   font-size: 12px;
+   margin-bottom: 20px;
+   line-height: 20px;
+}
+
+.algonquin-image-con a {
+   color: #707070;
+   font-size: 12px;
+}
+
+#algonquin-bottom-nav {
+   background-color: #CF6666;
+   padding: 10px;
+   margin-top: 20px;
+   margin-bottom: 30px;
+}
+
+#algonquin-bottom-nav ol {
+   list-style-type: none;
+   margin: 0 0 0 20px;
+   padding: 0;
+}
+
+#algonquin-bottom-nav ol li {
+   display: inline;
+}
+
+#algonquin-bottom-nav ol li a {
+   padding: 5px;
+   color: #fff;
+}
 
 /* 8. ---Footer--- */
 
