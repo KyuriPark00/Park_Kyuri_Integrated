@@ -217,6 +217,7 @@ details p {
 
 #massage-nav {
    padding-top: 20px;
+   margin: 30px 0;
 }
 
 #massage-nav ul {
@@ -541,6 +542,13 @@ details p {
    color: #fff;
 } 
 
+#moregray {
+   background-color:#efefef;
+}
+
+.clickmore {
+   text-decoration: underline;
+}
 /* 8. ---Footer--- */
 
 #footer-hero {
