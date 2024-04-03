@@ -294,7 +294,7 @@ details p {
 /* handfoot */
 
 #handfoot-hero-con {
-   background: url(../images/spa/spa-mobl-sec-03.png) no-repeat;
+   background: url(../images/spa/spa-mobl-sec-02.png) no-repeat;
    height: 195px;
 }
 
@@ -350,7 +350,7 @@ details p {
 /* 7. --- scrub --- */
 
 #scrub-hero-con {
-   background: url(../images/spa/spa-mobl-sec-04.png) no-repeat;
+   background: url(../images/spa/spa-mobl-sec-03.png) no-repeat;
    height: 195px;
 }
 
@@ -406,7 +406,7 @@ details p {
 /* 7. --- algonquin --- */
 
 #algonquin-hero-con {
-   background: url(../images/spa/spa-mobl-sec-05.png) no-repeat;
+   background: url(../images/spa/spa-mobl-sec-04.png) no-repeat;
    height: 195px;
 }
 
@@ -501,6 +501,11 @@ details p {
    font-size: 14px;
    margin-bottom: 20px;
    margin-top: 30px;;
+}
+
+.more-image img {
+   width: 140px;
+   height: 140px;
 }
 
 .more-image-con p {
