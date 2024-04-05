@@ -96,3 +96,207 @@ textarea {
 }
 
 /* 3. Main Hero Image */
+#hero {
+   background: url(../images/FAQ/faq-mobl-hero.png) no-repeat;
+   height: 200px;
+}
+
+.book-now {
+   background-color: #9a2018;
+   color: #fff;
+   font-size: 16px;
+   transition: background-color 500ms linear;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-style: italic;
+   transition: all 0.3s ease;
+   cursor: pointer;
+}
+
+.book-now:hover {
+   background-color: rgb(196, 28, 28);
+}
+
+#book-now-hero {
+   height: 67px;
+}
+
+#hero-heading-box {
+   align-self: end;
+}
+
+.hero-img-h3 {
+   background: rgb(255, 255, 255);
+   padding: 10px 15px;
+   font-size: 14px;
+}
+
+.hero-img-h3 span {
+   color: #9a2018;
+   font-size: 12px;
+}
+
+#hero-summary p {
+   font-size: 14px;
+   line-height: 22px;
+   margin-bottom: 20px;
+}
+
+/* 4. Main Hero Image Contact */
+
+.fas {
+   font-size: 42px;
+   color: #9a2018;
+   margin: 0 auto;
+   float: left;
+}
+
+.fa-mobile-alt {
+   margin-right: 10px;
+   margin-left: 3px;
+   margin-bottom: 20px;
+}
+
+.fa-map-marker-alt {
+   margin-right: 10px;
+}
+
+#contact {
+   font-size: 11px;
+   background-color: #efefef;
+   padding-top: 30px;
+   padding-bottom: 30px;
+}
+
+/* 5. FAQ Nav */
+
+#FAQ-nav {
+   padding-top: 20px;
+   margin: 30px 0;
+}
+
+#FAQ-nav ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+
+#FAQ-nav ul li {
+   margin-bottom: 15px;
+}
+
+#FAQ-nav ul li a {
+   color: inherit;
+   padding: 5px;
+}
+
+#FAQ-nav ul li a.selected {
+   border-left: #9a2018 solid 5px;
+}
+
+
+
+/* FAQ Meal */
+#meal-nav {
+   padding-top: 20px;
+   margin: 30px 0;
+}
+
+#meal-nav ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+
+#meal-nav ul li {
+   margin-bottom: 15px;
+}
+
+#meal-nav ul li a {
+   Color: inherit;
+   padding: 5px;
+}
+
+#meal-nav ul li a.selected {
+   border-left: #9a2018 solid 5px;
+}
+
+#meal-hero-con {
+   background: url(../images/FAQ/faq-mobl-sec-01.png) no-repeat;
+   height: 195px;
+}
+
+#meal-heading-box {
+   align-self: end;
+}
+
+/* Thin line */
+.thin-line-separator {
+   border-top: solid 2px #CF6666;
+   margin-top: 10px;
+}
+
+/* FAQ Tip */
+#tip-hero-con {
+   background: url(../images/FAQ/faq-mobl-sec-02.png) no-repeat;
+   height: 195px;
+}
+
+#tip-heading-box {
+   align-self: end;
+}
+
+/* FAQ Internet */
+#internet-hero-con {
+   background: url(../images/FAQ/faq-mobl-sec-03.png) no-repeat;
+   height: 195px;
+}
+
+#internet-heading-box {
+   align-self: end;
+}
+
+/* FAQ Products */
+#products-hero-con {
+   background: url(../images/FAQ/faq-mobl-sec-04.png) no-repeat;
+   height: 195px;
+}
+
+#products-heading-box {
+   align-self: end;
+}
+
+
+
+
+
+
+
+/* 6. Details & Summary */
+details {
+   border: none;
+   padding: 10px 0;
+   margin-bottom: 35px;
+}
+
+summary {
+   background-color: #efefef;
+   padding: 10px;
+   margin-bottom: 40px;
+}
+
+details p {
+   line-height: 30px;
+}
+
+.thin-line-separator {
+   border-top: solid 2px #CF6666;
+}
+
+
+details p {
+   margin-top: 25px;
+   margin-bottom: 0;
+   padding-bottom: 0;
+}
