@@ -32,3 +32,24 @@ input, textarea {
     border-top: solid 3px #CF6666;
     padding-top: 20px;
 }
+
+/* 2. Main Nav */
+
+#main-nav label img {
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: all .5s ease;
+    margin-bottom: 20px; 
+}
+
+#main-nav input, #burger-con {
+    display: none;
+}
+
+/* Sibling Selector for Hamburger Menu */
+
+#main-nav input:checked ~ label img {
+    transform: rotate(90deg);
+}
