@@ -333,7 +333,7 @@ details p {
 
 #contact-hero-form input,
 textarea {
-   padding: 220px;
+   padding: 22px;
    border: 2px solid #d6d6d6;
    background-color: #f7f7f7;
    border-radius: 5px;
@@ -345,6 +345,7 @@ textarea {
 #contact-hero-form textarea {
    height: 250px;
 }
+
 
 /* Contact Hero Form Submit */
 
@@ -407,4 +408,33 @@ textarea {
    100% {
       transform: scale(1);
    }
+}
+
+#footer-hero {
+   background-image: url(../images/home/footer.jpg);
+   background-repeat: no-repeat;
+   color: #fff;
+   font-size: 12px;
+   margin-top: 40px;
+   padding-bottom: 80px;
+}
+
+#footer-hero h3 {
+   margin-top: 30px;
+   font-size: 28px;
+   margin-bottom: 16px;
+}
+
+#footer-privacy .line-seperator {
+   margin-top: 0px;
+}
+
+#footer-contact-info h3 {
+   font-size: 23px;
+}
+
+#footer-contact-info p {
+   margin-bottom: 20px;
+   line-height: 18px;
+   font-size: 11px;
 }
