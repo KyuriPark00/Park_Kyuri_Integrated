@@ -96,8 +96,6 @@ textarea {
    border-bottom: 1px solid #efefef;
 }
 
-
-
 #main-nav ul li:first-child {
    border-top: 1px solid #efefef;
 }
@@ -105,8 +103,6 @@ textarea {
 #main-nav ul li:last-child {
    margin-bottom: 10px;
 }
-
-
 
 #logo {
    margin-bottom: 20px;
@@ -211,13 +207,11 @@ details p {
    border-top: solid 2px #CF6666;
 }
 
-
 details p {
    margin-top: 25px;
    margin-bottom: 0;
    padding-bottom: 0;
 }
-
 
 /* 6. FAQ Nav */
 #FAQ-nav {
@@ -243,8 +237,6 @@ details p {
 #FAQ-nav ul li a.selected {
    border-left: #9a2018 solid 5px;
 }
-
-
 
 /* 7. Meal */
 #meal-hero-con {
@@ -358,8 +350,6 @@ textarea {
    accent-color: rgb(196, 28, 28);
 }
 
-
-
 .info .info-checkbox[type="checkbox"]:checked::after {
    content: '\1F44D';
    font-size: 25px;
@@ -367,8 +357,6 @@ textarea {
    left: 150px;
    top: 15px;
 }
-
-
 
 /* Contact Hero Form Submit */
 #contact-hero-form input[type="submit"] {
@@ -419,7 +407,6 @@ textarea {
    animation: buzz 1.2s infinite;
    /* Apply pulsating animation */
 }
-
 
 /* 12. Footer */
 #footer-hero {
