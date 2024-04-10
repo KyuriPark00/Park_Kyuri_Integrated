@@ -54,3 +54,115 @@ textarea {
     border-top: solid 3px #CF6666;
     padding-top: 20px;
 }
+
+/* 2. Main Nav */
+#main-nav label img {
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: all .5s ease;
+    margin-bottom: 20px;
+}
+
+#main-nav input,
+#burger-con {
+    display: none;
+}
+
+/* ~ sibling selector */
+#main-nav input:checked~#burger-con {
+    display: block;
+}
+
+#main-nav input:checked~label img {
+    transform: rotate(90deg);
+}
+
+#main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#main-nav ul li a {
+    display: block;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    color: #626262;
+}
+
+#main-nav ul li {
+    border-bottom: 1px solid #efefef;
+}
+
+
+
+#main-nav ul li:first-child {
+    border-top: 1px solid #efefef;
+}
+
+#main-nav ul li:last-child {
+    margin-bottom: 10px;
+}
+
+
+
+#logo {
+    margin-bottom: 20px;
+    max-width: 382px;
+}
+
+/* 3. Main Hero Image */
+#hero {
+    background: url(../images/activities/Act-mobl-hero.png) no-repeat;
+    height: 200px;
+}
+
+.book-now {
+    background-color: #9a2018;
+    color: #fff;
+    font-size: 16px;
+    transition: background-color 500ms linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.book-now:hover {
+    background-color: rgb(196, 28, 28);
+}
+
+#book-now-hero {
+    height: 67px;
+}
+
+#hero-heading-box {
+    align-self: end;
+}
+
+.hero-img-h2,
+.hero-img-h3 {
+    background: rgb(255, 255, 255);
+    padding: 10px 15px;
+    font-size: 14px;
+}
+
+.hero-img-h2 span,
+.hero-img-h3 span {
+    color: #9a2018;
+    font-size: 12px;
+}
+
+#hero-summary {
+    margin-bottom: 35px;
+}
+
+#hero-summary p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
