@@ -195,8 +195,6 @@ textarea {
 }
 
 /* 5. Details & Summary */
-
-
 details {
     border: none;
     padding: 10px 0;
@@ -222,7 +220,6 @@ details p {
 
 
 /* 6. Activities Nav */
-
 #activities-nav {
     padding-top: 20px;
     margin: 30px 0;
@@ -248,7 +245,6 @@ details p {
 }
 
 /* 7. Spring */
-
 #spring-hero-con {
     background: url(../images/activities/Act-mobl-sec-01.png) no-repeat;
     height: 195px;
@@ -267,7 +263,6 @@ details p {
 
 
 /* 8. Summer */
-
 #summer-hero-con {
     background: url(../images/activities/Act-mobl-sec-02.png) no-repeat;
     height: 195px;
@@ -292,7 +287,6 @@ details p {
 
 
 /* 9. Fall */
-
 #fall-hero-con {
     background: url(../images/activities/Act-mobl-sec-03.png) no-repeat;
     height: 195px;
@@ -316,7 +310,6 @@ details p {
 }
 
 /* 10. Winter */
-
 #winter-hero-con {
     background: url(../images/activities/Act-mobl-sec-04.png) no-repeat;
     height: 195px;
@@ -423,7 +416,6 @@ details p {
 }
 
 /* 12. Footer */
-
 #footer-hero {
     background-image: url(../images/home/footer.jpg);
     background-repeat: no-repeat;
