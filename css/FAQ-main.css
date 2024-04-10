@@ -3,6 +3,23 @@ Couples Resort Responsive Build
 4 column grid as per XD file
  */
 
+/*
+    CSS Guide
+
+    1.  General Styles
+    2.  Main Nav
+    3.  Main Hero Image
+    4.  Main Hero Image Contact
+    5.  Details & Summary
+    6.  FAQ Nav
+    7.  Meal
+    8.  Tip
+    9.  Internet
+    10. Products
+    11. Contact
+    12. Footer
+ */
+
 /* 1. General Styles */
 #mobile-outline {
    outline: 20px solid #333;
@@ -138,6 +155,10 @@ textarea {
    font-size: 12px;
 }
 
+#hero-summary {
+   margin-bottom: 35px;
+}
+
 #hero-summary p {
    font-size: 14px;
    line-height: 22px;
@@ -169,80 +190,7 @@ textarea {
    padding-bottom: 30px;
 }
 
-/* 5. FAQ Nav */
-#FAQ-nav {
-   padding-top: 20px;
-   margin: 30px 0;
-}
-
-#FAQ-nav ul {
-   list-style: none;
-   margin: 0;
-   padding: 0;
-}
-
-#FAQ-nav ul li {
-   margin-bottom: 15px;
-}
-
-#FAQ-nav ul li a {
-   color: inherit;
-   padding: 5px;
-}
-
-#FAQ-nav ul li a.selected {
-   border-left: #9a2018 solid 5px;
-}
-
-
-
-/* Meal */
-#meal-hero-con {
-   background: url(../images/FAQ/faq-mobl-sec-01.png) no-repeat;
-   height: 195px;
-}
-
-#meal-heading-box {
-   align-self: end;
-}
-
-/* Thin line */
-.thin-line-separator {
-   border-top: solid 2px #CF6666;
-   margin-top: 10px;
-}
-
-/* Tip */
-#tip-hero-con {
-   background: url(../images/FAQ/faq-mobl-sec-02.png) no-repeat;
-   height: 195px;
-}
-
-#tip-heading-box {
-   align-self: end;
-}
-
-/* Internet */
-#internet-hero-con {
-   background: url(../images/FAQ/faq-mobl-sec-03.png) no-repeat;
-   height: 195px;
-}
-
-#internet-heading-box {
-   align-self: end;
-}
-
-/* Products */
-#products-hero-con {
-   background: url(../images/FAQ/faq-mobl-sec-04.png) no-repeat;
-   height: 195px;
-}
-
-#products-heading-box {
-   align-self: end;
-}
-
-/* 6. Details & Summary */
+/* 5. Details & Summary */
 details {
    border: none;
    padding: 10px 0;
@@ -270,7 +218,81 @@ details p {
    padding-bottom: 0;
 }
 
-/* 7. Contact */
+
+/* 6. FAQ Nav */
+#FAQ-nav {
+   padding-top: 20px;
+   margin: 30px 0;
+}
+
+#FAQ-nav ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+
+#FAQ-nav ul li {
+   margin-bottom: 15px;
+}
+
+#FAQ-nav ul li a {
+   color: inherit;
+   padding: 5px;
+}
+
+#FAQ-nav ul li a.selected {
+   border-left: #9a2018 solid 5px;
+}
+
+
+
+/* 7. Meal */
+#meal-hero-con {
+   background: url(../images/FAQ/faq-mobl-sec-01.png) no-repeat;
+   height: 195px;
+}
+
+#meal-heading-box {
+   align-self: end;
+}
+
+/* Thin line */
+.thin-line-separator {
+   border-top: solid 2px #CF6666;
+   margin-top: 10px;
+}
+
+/* 8. Tip */
+#tip-hero-con {
+   background: url(../images/FAQ/faq-mobl-sec-02.png) no-repeat;
+   height: 195px;
+}
+
+#tip-heading-box {
+   align-self: end;
+}
+
+/* 9. Internet */
+#internet-hero-con {
+   background: url(../images/FAQ/faq-mobl-sec-03.png) no-repeat;
+   height: 195px;
+}
+
+#internet-heading-box {
+   align-self: end;
+}
+
+/* 10. Products */
+#products-hero-con {
+   background: url(../images/FAQ/faq-mobl-sec-04.png) no-repeat;
+   height: 195px;
+}
+
+#products-heading-box {
+   align-self: end;
+}
+
+/* 11. Contact */
 #contact-hero-con {
    background: url(../images/FAQ/faq-mobl-sec-05.png) no-repeat;
    height: 195px;
@@ -300,7 +322,6 @@ details p {
 }
 
 /* Contact Hero Form */
-
 #contact-hero-form form {
    display: flex;
    flex-direction: column;
@@ -323,7 +344,6 @@ textarea {
 
 
 /* Contact Hero Form Submit */
-
 #contact-hero-form input[type="submit"] {
    padding: 12px 28px;
    background-color: #9a2018;
@@ -385,6 +405,7 @@ textarea {
    }
 }
 
+/* 12. Footer */
 #footer-hero {
    background-image: url(../images/home/footer.jpg);
    background-repeat: no-repeat;
