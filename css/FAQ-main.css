@@ -3,6 +3,23 @@ Couples Resort Responsive Build
 4 column grid as per XD file
  */
 
+/*
+    CSS Guide
+
+    1.  General Styles
+    2.  Main Nav
+    3.  Main Hero Image
+    4.  Main Hero Image Contact
+    5.  Details & Summary
+    6.  FAQ Nav
+    7.  Meal
+    8.  Tip
+    9.  Internet
+    10. Products
+    11. Contact
+    12. Footer
+ */
+
 /* 1. General Styles */
 #mobile-outline {
    outline: 20px solid #333;
@@ -138,10 +155,13 @@ textarea {
    font-size: 12px;
 }
 
+#hero-summary {
+   margin-bottom: 35px;
+}
+
 #hero-summary p {
    font-size: 14px;
    line-height: 22px;
-   margin-bottom: 20px;
 }
 
 /* 4. Main Hero Image Contact */
@@ -169,7 +189,35 @@ textarea {
    padding-bottom: 30px;
 }
 
-/* 5. FAQ Nav */
+/* 5. Details & Summary */
+details {
+   border: none;
+   padding: 10px 0;
+   margin-bottom: 35px;
+}
+
+summary {
+   background-color: #efefef;
+   padding: 10px;
+   margin-bottom: 40px;
+}
+
+details p {
+   line-height: 30px;
+}
+
+.thin-line-separator {
+   border-top: solid 2px #CF6666;
+}
+
+
+details p {
+   margin-top: 25px;
+   margin-bottom: 0;
+   padding-bottom: 0;
+}
+
+/* 6. FAQ Nav */
 #FAQ-nav {
    padding-top: 20px;
    margin: 30px 0;
@@ -196,7 +244,7 @@ textarea {
 
 
 
-/* Meal */
+/* 7. Meal */
 #meal-nav {
    padding-top: 20px;
    margin: 30px 0;
@@ -236,7 +284,7 @@ textarea {
    margin-top: 10px;
 }
 
-/* Tip */
+/* 8. Tip */
 #tip-hero-con {
    background: url(../images/FAQ/faq-mobl-sec-02.png) no-repeat;
    height: 195px;
@@ -246,7 +294,7 @@ textarea {
    align-self: end;
 }
 
-/* Internet */
+/* 9. Internet */
 #internet-hero-con {
    background: url(../images/FAQ/faq-mobl-sec-03.png) no-repeat;
    height: 195px;
@@ -256,7 +304,7 @@ textarea {
    align-self: end;
 }
 
-/* Products */
+/* 10. Products */
 #products-hero-con {
    background: url(../images/FAQ/faq-mobl-sec-04.png) no-repeat;
    height: 195px;
@@ -266,35 +314,7 @@ textarea {
    align-self: end;
 }
 
-/* 6. Details & Summary */
-details {
-   border: none;
-   padding: 10px 0;
-   margin-bottom: 35px;
-}
-
-summary {
-   background-color: #efefef;
-   padding: 10px;
-   margin-bottom: 40px;
-}
-
-details p {
-   line-height: 30px;
-}
-
-.thin-line-separator {
-   border-top: solid 2px #CF6666;
-}
-
-
-details p {
-   margin-top: 25px;
-   margin-bottom: 0;
-   padding-bottom: 0;
-}
-
-/* 7. Contact */
+/* 11. Contact */
 #contact-hero-con {
    background: url(../images/FAQ/faq-mobl-sec-05.png) no-repeat;
    height: 195px;
@@ -418,6 +438,7 @@ textarea {
    padding-bottom: 80px;
 }
 
+/* 12. Footer */
 #footer-hero h3 {
    margin-top: 30px;
    font-size: 28px;
