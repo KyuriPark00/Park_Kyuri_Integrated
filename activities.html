@@ -2,10 +2,85 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sanchez&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d0e8431583.js" crossorigin="anonymous"></script>
+    <link href="css/grid.css" rel="stylesheet" type="text/css">
+    <link href="css/activities-main.css" rel="stylesheet" type="text/css">
+    <title>Activites</title>
 </head>
 <body>
-    
+    <h1 class="hidden">Activites</h1>
+    <!-- Main Nav -->
+    <header>
+        <nav id="main-nav" class="col-span-full">
+            <h2 class="hidden">Main Navigation</h2>
+            <input type="checkbox" id="hamburger">
+            <label>
+                <img src="images/home/burger.svg" alt="hamburger menu icon">
+            </label>
+            <div id="burger-con">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Rooms</a></li>
+                    <li><a href="#">Packages</a></li>
+                    <li><a href="activities.html">Activites</a></li>
+                    <li><a href="spa.html">Spa</a></li>
+                    <li><a href="FAQ.html">FAQ</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div id="logo" class="col-span-full">
+            <img src="images/home/couples_resort_logo.svg" alt="Couples Resort Logo">
+        </div>
+    </header>
+
+    <!-- Main Hero -->
+    <section id="hero" class="grid-con">
+        <h2 class="hidden">Book a stay with us</h2>
+        <div id="book-now-hero" class="book-now col-start-3 col-span-2">
+            <p>Book Now</p>
+        </div>
+        <section id="hero-heading-box" class="col-span-full">
+            <h2 class="hero-img-h2">
+                <span>Couples Resort</span><br>Activites
+            </h2>
+        </section>
+    </section>
+
+    <div class="grid-con">
+        <section id="hero-summary" class="col-span-full line-separator">
+            <h2 class="hidden">Summary of our Activites</h2>
+            <p>
+                Algonquin Park, the first provincial park in Ontario, protected from the noise and rush of civilization, this world-renowned park in Ontario is a sanctuary for the rugged beauty of the maple, pine, moose, and wolves. A Provincial Park since 1893, the 7500 square kilometers (3500 square miles) of Algonquin Park are home to a diverse and unblemished eco-system that can be found nowhere else on earth.
+            </p> 
+            <p>
+                Glaciers that receded ten thousand years ago created the distinctive rock outcroppings and spring-fed lakes of Algonquin. These mountains of ice have left the park with a rough, stark beauty. This, combined with its location, 3 hours northeast of Toronto and 2 1/2 hours west of Ottawa makes Algonquin an ideal attraction for those looking to escape the hustle of the city.
+            </p>
+        </section>
+    </div>
+
+    <section id="contact" class="grid-con">
+        <h2 class="hidden">Contact Us</h2>              
+        <div class="col-start-2 col-span-2">
+            <i class="fas fa-mobile-alt"></i>
+            <p id="hero-numbers">
+                Toll Free:+1 866 202-1179<br>
+                Fax:+1 613 637 2615<br>
+                info[at]coupleresort.com
+            </p>   
+        </div>
+        <div class="col-start-2 col-span-2">
+            <i class="fas fa-map-marker-alt"></i>
+            <p id="hero-address">
+                1198 Osprey Rd, (End of)<br>
+                Minden, Soyers Lake, ON<br>
+                K0M 2K0
+            </p>   
+        </div>
+    </section>
+
+    <!-- Activities Nav -->
 </body>
 </html>
