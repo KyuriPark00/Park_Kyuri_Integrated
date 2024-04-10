@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sanchez&display=swap" rel="stylesheet">
@@ -12,12 +13,12 @@
 </head>
 <body>
     <h1 class="hidden">Activites</h1>
-    <!-- Main Nav -->
-    <header>
+    <!-- Main Nav -->         
+    <header class="grid-con" id="main-header">
         <nav id="main-nav" class="col-span-full">
             <h2 class="hidden">Main Navigation</h2>
             <input type="checkbox" id="hamburger">
-            <label>
+            <label for="hamburger">
                 <img src="images/home/burger.svg" alt="hamburger menu icon">
             </label>
             <div id="burger-con">
@@ -34,11 +35,11 @@
         <div id="logo" class="col-span-full">
             <img src="images/home/couples_resort_logo.svg" alt="Couples Resort Logo">
         </div>
-    </header>
+    </header>  
 
     <!-- Main Hero -->
     <section id="hero" class="grid-con">
-        <h2 class="hidden">Book a stay with us</h2>
+        <h2 class="hidden">Book a stay with us</h2>                       
         <div id="book-now-hero" class="book-now col-start-3 col-span-2">
             <p>Book Now</p>
         </div>
@@ -48,7 +49,7 @@
             </h2>
         </section>
     </section>
-
+       
     <div class="grid-con">
         <section id="hero-summary" class="col-span-full line-separator">
             <h2 class="hidden">Summary of our Activites</h2>
@@ -60,7 +61,7 @@
             </p>
         </section>
     </div>
-
+        
     <section id="contact" class="grid-con">
         <h2 class="hidden">Contact Us</h2>              
         <div class="col-start-2 col-span-2">
@@ -80,9 +81,9 @@
             </p>   
         </div>
     </section>
-
-    <!-- Activities Nav -->
-    <div id="activities">
+    
+    <!-- Acitivities Nav -->
+    <div id="activites">
         <div class="grid-con">
             <nav id="activities-nav" class="col-span-full">
                 <h2 class="hidden">Nav for Activites</h2>
@@ -91,42 +92,41 @@
                     <li><a href="#">Spring</a></li>
                     <li><a href="#">Summer</a></li>
                     <li><a href="#">Fall</a></li>
-                    <li><a href="#">Winter</a></li> 
+                    <li><a href="#">Winter</a></li>
                 </ul>
             </nav>
         </div>
         <!-- Activities Spring -->
-        <section id="spring-hero-con" class="grid-con">
+        <section id="spring-hero-con" class="grid-con">             
             <div id="spring-heading-box" class="col-span-full">
-                <h3 class="hero-img-h3">
-                    <span>Couples Resort</span><br>Spring - All Inclusive ~ Romantic Getaway
+                <h3 class="hero-img-h3"><span>Couples Resort</span><br>Spring - All Inclusive ~ Romantic Getaway
                 </h3>
-            </div>
-        </section>
-
+            </div> 
+        </section> 
+        
         <div class="grid-con">
             <div id="spring-text" class="col-span-full line-separator">
-                <p>
-                    ALL-INCLUSIVE ~ ROMANTIC GETAWAY<br>
-                    Spring is in the air and life in Nature is coming alive with excitement here at Algonquin Park, a perfect time to take a romantic vacation at Couples Resort and visit Algonquin Park.
-                  </p>
-                  <p>
-                    Weather here in the spring can often be several degrees warmer than if you live near places like Lake Ontario as the ground here can warm up fast and we have no big Lake effect keeping air cool. Here you can enjoy outdoor hiking and horseback riding https://ridethewilderness.com  plus many other sports and attractions.
-                  </p>
+              <p>
+                ALL-INCLUSIVE ~ ROMANTIC GETAWAY<br>
+                Spring is in the air and life in Nature is coming alive with excitement here at Algonquin Park, a perfect time to take a romantic vacation at Couples Resort and visit Algonquin Park.
+              </p>
+              <p>
+                Weather here in the spring can often be several degrees warmer than if you live near places like Lake Ontario as the ground here can warm up fast and we have no big Lake effect keeping air cool. Here you can enjoy outdoor hiking and horseback riding https://ridethewilderness.com  plus many other sports and attractions.
+              </p>
             </div>
         </div>
     </div>
 
     <!-- Summer -->
-    <section id="summer-hero-con" class="grid-con">
+    <section id="summer-hero-con" class="grid-con">             
         <div id="summer-heading-box" class="col-span-full">
             <h3 class="hero-img-h3"><span>Couples Resort</span><br>Summer - Swimming pool &amp Patio &amp Lake
             </h3>
-        </div>
-    </section>
-
+        </div> 
+    </section> 
+        
     <div class="grid-con">
-        <div id="summer-text">
+        <div id="summer-text" class="col-span-full line-separator">
             <details>
                 <summary>Swimming pool &amp Patio &amp Lake</summary>
                 <p>Heated Pool</p>
@@ -140,12 +140,12 @@
     </div>
 
     <!-- Fall -->
-    <section id="fall-hero-con" class="grid-con">
+    <section id="fall-hero-con" class="grid-con">             
         <div id="fall-heading-box" class="col-span-full">
             <h3 class="hero-img-h3"><span>Couples Resort</span><br>Fall - Hiking &amp Biking
             </h3>
         </div> 
-    </section>
+    </section> 
 
     <div class="grid-con">
         <div id="fall-text" class="col-span-full line-separator">
@@ -160,13 +160,13 @@
     </div>
 
     <!-- Winter -->
-    <section id="winter-hero-con" class="grid-con">
+    <section id="winter-hero-con" class="grid-con">             
         <div id="winter-heading-box" class="col-span-full">
             <h3 class="hero-img-h3"><span>Couples Resort</span><br>Winter - Sking &amp Skating
             </h3>
         </div> 
-    </section>
-
+    </section> 
+    
     <div class="grid-con">
         <div id="winter-text" class="col-span-full line-separator">
             <details>
@@ -180,6 +180,7 @@
     </div>
 
     <!-- More -->
+
     <div id="moregray" class="grid-con">
         <div class="col-span-full more-image-con" id="lake">
             <div class="more-image">
@@ -204,8 +205,8 @@
                 <li><a href="#">6</a></li>
             </ol>
         </nav>
-    </div> 
-    
+    </div>       
+
     <!-- Footer -->
 
     <footer id="footer-hero" class="grid-con">        
@@ -226,6 +227,6 @@
         </div>
     </footer>
 
-    <script src="js/main.js"></script>           
+    <script src="js/main.js"></script>             
 </body>
 </html>
