@@ -342,6 +342,33 @@ textarea {
    height: 250px;
 }
 
+/* Info Checkbox */
+.info {
+   display: flex;
+   align-items: center;
+   margin-bottom: 30px;
+}
+
+.info input {
+   margin-right: 10px;
+}
+
+.info input[type="checkbox"] {
+   margin-right: 10px;
+   accent-color: rgb(196, 28, 28);
+}
+
+
+
+.info .info-checkbox[type="checkbox"]:checked::after {
+   content: '\1F44D';
+   font-size: 25px;
+   position: relative;
+   left: 150px;
+   top: 15px;
+}
+
+
 
 /* Contact Hero Form Submit */
 #contact-hero-form input[type="submit"] {
@@ -367,10 +394,6 @@ textarea {
    opacity: 0;
    transition: opacity 0.3s ease;
 }
-
-/*#contact-hero-form input[type="submit"]:hover::after {
-   opacity: 1;  Make it visible on hover 
-}*/
 
 #contact-hero-form input[type="submit"]:hover {
    background-color: rgb(196, 28, 28);
