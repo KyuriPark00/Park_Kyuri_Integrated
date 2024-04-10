@@ -10,107 +10,111 @@ Couples Resort Responsive Build
     2.  Main Nav
     3.  Main Hero Image
     4.  Main Hero Image Contact
-    5.  Why Couples Resort
-    6.  About & FAQ
-    7.  Contact Form
-    8.  Footer
+    5.  Details & Summary
+    6.  Massage Nav
+    7.  Massage
+    8.  Handfoot
+    9.  Scrub
+    10. Algonquin
+    11. More
+    12. Footer
  */
 
- /* 1. ---General Styles--- */
- #mobile-outline {
-    outline: 20px solid #333;
-    max-width: 412px;
-    margin: 20px auto 20px auto;
-    border-radius: 10px;
- } 
- 
- body {
-    color: #626262;
-    font-family: 'Sanchez', 'Times New Roman', serif;
- }
- 
- a {
-    text-decoration: none;
-    transition: all .5s ease-in-out;
- }
- 
- input, textarea {
-    display: block;
-    margin: 0;
-    padding: 0;
- }
- 
- .cr-red {
-    color: #9a2018;
- }
- 
- .line-separator {
-    margin-top: 20px;
-    border-top: solid 3px #CF6666;
-    padding-top: 20px;
- }
+/* 1. General Styles */
+#mobile-outline {
+   outline: 20px solid #333;
+   max-width: 412px;
+   margin: 20px auto 20px auto;
+   border-radius: 10px;
+}
 
-/* 2. ---Main Nav--- */
+body {
+   color: #626262;
+   font-family: 'Sanchez', 'Times New Roman', serif;
+}
+
+a {
+   text-decoration: none;
+   transition: all .5s ease-in-out;
+}
+
+input,
+textarea {
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+
+.cr-red {
+   color: #9a2018;
+}
+
+.line-separator {
+   margin-top: 20px;
+   border-top: solid 3px #CF6666;
+   padding-top: 20px;
+}
+
+/* 2. Main Nav */
 
 #main-nav label img {
-    width: 20px;
-    height: 20px;
-    margin-top: 15px;
-    cursor: pointer;
-    transition: all .5s ease;
-    margin-bottom: 20px; 
- } 
- 
- #main-nav input, #burger-con {
-    display: none;
- }
- 
- /*   ~ sibling selector   */
- 
- 
- #main-nav input:checked ~ #burger-con {
-    display: block;
- }
- 
- #main-nav input:checked ~ label img {
-    transform: rotate(90deg);
- }
- 
- #main-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
- }
- 
- #main-nav ul li a {
-    display: block;
-    padding: 10px 0 10px 0;
-    text-align: center;
-    color: #626262;
- }
- 
- #main-nav ul li {
-    border-bottom: 1px solid #efefef;
- }
- 
- 
- 
- #main-nav ul li:first-child {
-    border-top: 1px solid #efefef;
- }
- 
- #main-nav ul li:last-child {
-    margin-bottom: 10px;
- } 
- 
- 
- 
- #logo {
-    margin-bottom: 20px;
-    max-width: 382px;
- }
+   width: 20px;
+   height: 20px;
+   margin-top: 15px;
+   cursor: pointer;
+   transition: all .5s ease;
+   margin-bottom: 20px;
+}
 
-/* 3. ---Main Hero Image--- */
+#main-nav input,
+#burger-con {
+   display: none;
+}
+
+/* ~ sibling selector ~ */
+#main-nav input:checked~#burger-con {
+   display: block;
+}
+
+#main-nav input:checked~label img {
+   transform: rotate(90deg);
+}
+
+#main-nav ul {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+}
+
+#main-nav ul li a {
+   display: block;
+   padding: 10px 0 10px 0;
+   text-align: center;
+   color: #626262;
+}
+
+#main-nav ul li {
+   border-bottom: 1px solid #efefef;
+}
+
+
+
+#main-nav ul li:first-child {
+   border-top: 1px solid #efefef;
+}
+
+#main-nav ul li:last-child {
+   margin-bottom: 10px;
+}
+
+
+
+#logo {
+   margin-bottom: 20px;
+   max-width: 382px;
+}
+
+/* 3. Main Hero Image */
 
 #hero {
    background: url(../images/spa/spa-mobl-hero.png) no-repeat;
@@ -126,7 +130,7 @@ Couples Resort Responsive Build
    justify-content: center;
    align-items: center;
    font-style: italic;
-   transition:all 0.3s ease;
+   transition: all 0.3s ease;
    cursor: pointer;
 }
 
@@ -142,15 +146,21 @@ Couples Resort Responsive Build
    align-self: end;
 }
 
-.hero-img-h2, .hero-img-h3 {
+.hero-img-h2,
+.hero-img-h3 {
    background: rgb(255, 255, 255);
    padding: 10px 15px;
    font-size: 14px;
 }
 
-.hero-img-h2 span,  .hero-img-h3 span {
+.hero-img-h2 span,
+.hero-img-h3 span {
    color: #9a2018;
    font-size: 12px;
+}
+
+#hero-summary {
+   margin-bottom: 35px;
 }
 
 #hero-summary p {
@@ -159,7 +169,7 @@ Couples Resort Responsive Build
    margin-bottom: 20px;
 }
 
-/* 4. ---Main Hero Image Contact--- */
+/* 4. Main Hero Image Contact */
 #contact {
    font-size: 11px;
    background-color: #efefef;
@@ -186,9 +196,7 @@ Couples Resort Responsive Build
    margin-right: 10px;
 }
 
-/* 6. --- details & summary --- */
-
-
+/* 5. Details & Summary */
 details {
    border: none;
    padding: 10px 0;
@@ -207,13 +215,13 @@ summary {
 
 
 details p {
-  margin-top: 25px;
-  margin-bottom: 0;
-  padding-bottom: 0;
+   margin-top: 25px;
+   margin-bottom: 0;
+   padding-bottom: 0;
 }
 
 
-/* 5. --- massage nav도 마사지로 바꾸기--- */
+/* 6. Massage Nav */
 
 #massage-nav {
    padding-top: 20px;
@@ -225,6 +233,7 @@ details p {
    margin: 0;
    padding: 0;
 }
+
 #massage-nav ul li {
    margin-bottom: 15px;
 }
@@ -238,14 +247,6 @@ details p {
    border-left: #9a2018 solid 5px;
 }
 
-#massage-hero-con {
-   background: url(../images/spa/spa-mobl-sec-01.png) no-repeat;
-   height: 195px;
-}
-
-#massage-heading-box {
-   align-self: end;
-}
 
 .massage-image {
    float: left;
@@ -256,7 +257,8 @@ details p {
 .massage-image-con {
    font-size: 14px;
    margin-bottom: 20px;
-   margin-top: 30px;;
+   margin-top: 30px;
+   ;
 }
 
 .massage-image-con p {
@@ -290,10 +292,20 @@ details p {
 #massage-bottom-nav ol li a {
    padding: 5px;
    color: #fff;
-} 
+}
 
-/* handfoot */
+/* 7. Massage */
+#massage-hero-con {
+   background: url(../images/spa/spa-mobl-sec-01.png) no-repeat;
+   height: 195px;
+}
 
+#massage-heading-box {
+   align-self: end;
+}
+
+
+/* 8. Handfoot */
 #handfoot-hero-con {
    background: url(../images/spa/spa-mobl-sec-02.png) no-repeat;
    height: 195px;
@@ -312,7 +324,8 @@ details p {
 .handfoot-image-con {
    font-size: 14px;
    margin-bottom: 20px;
-   margin-top: 30px;;
+   margin-top: 30px;
+   ;
 }
 
 .handfoot-image-con p {
@@ -346,10 +359,9 @@ details p {
 #handfoot-bottom-nav ol li a {
    padding: 5px;
    color: #fff;
-} 
+}
 
-/* 7. --- scrub --- */
-
+/* 9. Scrub --- */
 #scrub-hero-con {
    background: url(../images/spa/spa-mobl-sec-03.png) no-repeat;
    height: 195px;
@@ -368,7 +380,8 @@ details p {
 .scrub-image-con {
    font-size: 14px;
    margin-bottom: 20px;
-   margin-top: 30px;;
+   margin-top: 30px;
+   ;
 }
 
 .scrub-image-con p {
@@ -404,8 +417,7 @@ details p {
    color: #fff;
 }
 
-/* 7. --- algonquin --- */
-
+/* 10. Algonquin */
 #algonquin-hero-con {
    background: url(../images/spa/spa-mobl-sec-04.png) no-repeat;
    height: 195px;
@@ -424,7 +436,8 @@ details p {
 .algonquin-image-con {
    font-size: 14px;
    margin-bottom: 20px;
-   margin-top: 30px;;
+   margin-top: 30px;
+   ;
 }
 
 .algonquin-image-con p {
@@ -460,7 +473,11 @@ details p {
    color: #fff;
 }
 
-/* 5. --- more --- */
+/* 11. More */
+#award h2 {
+   margin: 25px 0;
+}
+
 #more-nav {
    padding-top: 20px;
 }
@@ -470,6 +487,7 @@ details p {
    margin: 0;
    padding: 0;
 }
+
 #more-nav ul li {
    margin-bottom: 15px;
 }
@@ -501,7 +519,8 @@ details p {
 .more-image-con {
    font-size: 14px;
    margin-bottom: 20px;
-   margin-top: 30px;;
+   margin-top: 30px;
+   ;
 }
 
 .more-image img {
@@ -524,7 +543,7 @@ details p {
    background-color: #CF6666;
    padding: 10px;
    margin-top: 20px;
-   margin-bottom: 30px;
+   margin-bottom: 60px;
 }
 
 #more-bottom-nav ol {
@@ -540,42 +559,42 @@ details p {
 #more-bottom-nav ol li a {
    padding: 5px;
    color: #fff;
-} 
+}
 
 #moregray {
-   background-color:#efefef;
+   background-color: #efefef;
 }
 
 .clickmore {
    text-decoration: underline;
 }
-/* 8. ---Footer--- */
 
+/* 12. Footer */
 #footer-hero {
-    background-image: url(../images/home/footer.jpg);
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 12px;
-    margin-top: 40px;
-    padding-bottom: 80px;
- }
- 
- #footer-hero h3 {
-    margin-top: 30px;
-    font-size: 28px;
-    margin-bottom: 16px;
- }
- 
- #footer-privacy .line-seperator {
-    margin-top: 0px;
- }
- 
- #footer-contact-info h3 {
-    font-size: 23px;
- }
- 
- #footer-contact-info p {
-    margin-bottom: 20px;
-    line-height: 18px;
-    font-size: 11px;
- }
+   background-image: url(../images/home/footer.jpg);
+   background-repeat: no-repeat;
+   color: #fff;
+   font-size: 12px;
+   margin-top: 40px;
+   padding-bottom: 80px;
+}
+
+#footer-hero h3 {
+   margin-top: 30px;
+   font-size: 28px;
+   margin-bottom: 16px;
+}
+
+#footer-privacy .line-seperator {
+   margin-top: 0px;
+}
+
+#footer-contact-info h3 {
+   font-size: 23px;
+}
+
+#footer-contact-info p {
+   margin-bottom: 20px;
+   line-height: 18px;
+   font-size: 11px;
+}
