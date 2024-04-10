@@ -315,52 +315,6 @@ details p {
    align-self: end;
 }
 
-.handfoot-image {
-   float: left;
-   margin-right: 20px;
-   margin-top: 30px;
-}
-
-.handfoot-image-con {
-   font-size: 14px;
-   margin-bottom: 20px;
-   margin-top: 30px;
-   ;
-}
-
-.handfoot-image-con p {
-   font-size: 12px;
-   margin-bottom: 20px;
-   line-height: 20px;
-}
-
-.handfoot-image-con a {
-   color: #707070;
-   font-size: 12px;
-}
-
-#handfoot-bottom-nav {
-   background-color: #CF6666;
-   padding: 10px;
-   margin-top: 20px;
-   margin-bottom: 30px;
-}
-
-#handfoot-bottom-nav ol {
-   list-style-type: none;
-   margin: 0 0 0 20px;
-   padding: 0;
-}
-
-#handfoot-bottom-nav ol li {
-   display: inline;
-}
-
-#handfoot-bottom-nav ol li a {
-   padding: 5px;
-   color: #fff;
-}
-
 /* 9. Scrub --- */
 #scrub-hero-con {
    background: url(../images/spa/spa-mobl-sec-03.png) no-repeat;
@@ -371,52 +325,6 @@ details p {
    align-self: end;
 }
 
-.scrub-image {
-   float: left;
-   margin-right: 20px;
-   margin-top: 30px;
-}
-
-.scrub-image-con {
-   font-size: 14px;
-   margin-bottom: 20px;
-   margin-top: 30px;
-   ;
-}
-
-.scrub-image-con p {
-   font-size: 12px;
-   margin-bottom: 20px;
-   line-height: 20px;
-}
-
-.scrub-image-con a {
-   color: #707070;
-   font-size: 12px;
-}
-
-#scrub-bottom-nav {
-   background-color: #CF6666;
-   padding: 10px;
-   margin-top: 20px;
-   margin-bottom: 30px;
-}
-
-#scrub-bottom-nav ol {
-   list-style-type: none;
-   margin: 0 0 0 20px;
-   padding: 0;
-}
-
-#scrub-bottom-nav ol li {
-   display: inline;
-}
-
-#scrub-bottom-nav ol li a {
-   padding: 5px;
-   color: #fff;
-}
-
 /* 10. Algonquin */
 #algonquin-hero-con {
    background: url(../images/spa/spa-mobl-sec-04.png) no-repeat;
@@ -425,52 +333,6 @@ details p {
 
 #algonquin-heading-box {
    align-self: end;
-}
-
-.algonquin-image {
-   float: left;
-   margin-right: 20px;
-   margin-top: 30px;
-}
-
-.algonquin-image-con {
-   font-size: 14px;
-   margin-bottom: 20px;
-   margin-top: 30px;
-   ;
-}
-
-.algonquin-image-con p {
-   font-size: 12px;
-   margin-bottom: 20px;
-   line-height: 20px;
-}
-
-.algonquin-image-con a {
-   color: #707070;
-   font-size: 12px;
-}
-
-#algonquin-bottom-nav {
-   background-color: #CF6666;
-   padding: 10px;
-   margin-top: 20px;
-   margin-bottom: 30px;
-}
-
-#algonquin-bottom-nav ol {
-   list-style-type: none;
-   margin: 0 0 0 20px;
-   padding: 0;
-}
-
-#algonquin-bottom-nav ol li {
-   display: inline;
-}
-
-#algonquin-bottom-nav ol li a {
-   padding: 5px;
-   color: #fff;
 }
 
 /* 11. More */
