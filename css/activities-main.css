@@ -166,3 +166,289 @@ textarea {
     line-height: 22px;
     margin-bottom: 20px;
 }
+
+/* 4. Main Hero Image Contact */
+#contact {
+    font-size: 11px;
+    background-color: #efefef;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.fas {
+    font-size: 42px;
+    color: #9a2018;
+    margin: 0 auto;
+    float: left;
+}
+
+.fa-mobile-alt {
+    margin-right: 10px;
+    margin-left: 3px;
+    margin-bottom: 20px;
+}
+
+
+.fa-map-marker-alt {
+    margin-right: 10px;
+}
+
+/* 5. Details & Summary */
+
+
+details {
+    border: none;
+    padding: 10px 0;
+    margin-bottom: 35px;
+}
+
+summary {
+    background-color: #efefef;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+.thin-line-separator {
+    border-top: solid 2px #CF6666;
+}
+
+
+details p {
+    margin-top: 25px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+
+/* 6. Activities Nav */
+
+#activities-nav {
+    padding-top: 20px;
+    margin: 30px 0;
+}
+
+#activities-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#activities-nav ul li {
+    margin-bottom: 15px;
+}
+
+#activities-nav ul li a {
+    Color: inherit;
+    padding: 5px;
+}
+
+#activities-nav ul li a.selected {
+    border-left: #9a2018 solid 5px;
+}
+
+/* 7. Spring */
+
+#spring-hero-con {
+    background: url(../images/activities/Act-mobl-sec-01.png) no-repeat;
+    height: 195px;
+}
+
+#spring-heading-box {
+    align-self: end;
+}
+
+#spring-text p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px;
+    margin-bottom: 35px;
+}
+
+
+/* 8. Summer */
+
+#summer-hero-con {
+    background: url(../images/activities/Act-mobl-sec-02.png) no-repeat;
+    height: 195px;
+}
+
+#summer-heading-box {
+    align-self: end;
+}
+
+.summer-image {
+    float: left;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+.summer-image-con {
+    font-size: 14px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    ;
+}
+
+
+/* 9. Fall */
+
+#fall-hero-con {
+    background: url(../images/activities/Act-mobl-sec-03.png) no-repeat;
+    height: 195px;
+}
+
+#fall-heading-box {
+    align-self: end;
+}
+
+.fall-image {
+    float: left;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+.fall-image-con {
+    font-size: 14px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    ;
+}
+
+/* 10. Winter */
+
+#winter-hero-con {
+    background: url(../images/activities/Act-mobl-sec-04.png) no-repeat;
+    height: 195px;
+}
+
+#winter-heading-box {
+    align-self: end;
+}
+
+/* 11. More */
+#lake h2 {
+    margin: 25px 0;
+}
+
+#more-nav {
+    padding-top: 20px;
+}
+
+#more-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#more-nav ul li {
+    margin-bottom: 15px;
+}
+
+#more-nav ul li a {
+    Color: inherit;
+    padding: 5px;
+}
+
+#more-nav ul li a.selected {
+    border-left: #9a2018 solid 5px;
+}
+
+#more-hero-con {
+    background: url(../images/home/why-choose-us-hero.jpg) no-repeat;
+    height: 195px;
+}
+
+#more-heading-box {
+    align-self: end;
+}
+
+.more-image {
+    float: left;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+.more-image-con {
+    font-size: 14px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    ;
+}
+
+.more-image img {
+    width: 140px;
+    height: 140px;
+}
+
+.more-image-con p {
+    font-size: 12px;
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+
+.more-image-con a {
+    color: #707070;
+    font-size: 12px;
+}
+
+#more-bottom-nav {
+    background-color: #CF6666;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+#more-bottom-nav ol {
+    list-style-type: none;
+    margin: 0 0 0 20px;
+    padding: 0;
+}
+
+#more-bottom-nav ol li {
+    display: inline;
+}
+
+#more-bottom-nav ol li a {
+    padding: 5px;
+    color: #fff;
+}
+
+#moregray {
+    background-color: #efefef;
+}
+
+.clickmore {
+    text-decoration: underline;
+}
+
+/* 12. Footer */
+
+#footer-hero {
+    background-image: url(../images/home/footer.jpg);
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 40px;
+    padding-bottom: 80px;
+}
+
+#footer-hero h3 {
+    margin-top: 30px;
+    font-size: 28px;
+    margin-bottom: 16px;
+}
+
+#footer-privacy .line-seperator {
+    margin-top: 0px;
+}
+
+#footer-contact-info h3 {
+    font-size: 23px;
+}
+
+#footer-contact-info p {
+    margin-bottom: 20px;
+    line-height: 18px;
+    font-size: 11px;
+}
